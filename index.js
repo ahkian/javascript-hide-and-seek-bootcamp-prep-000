@@ -20,7 +20,7 @@ function deepestChild(){
   var tempElement = currElement
   var i = 0
   do {
-    tempElement = currElement.querySelector('div')
+    tempElement = tempElement.querySelector('div')
     i++
   }
   while (tempElement.innerHTML !== null)
