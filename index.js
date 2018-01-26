@@ -27,5 +27,5 @@ function deepestChild(){
   for (x = 0; x < i - 2; x++){
     currElement = currElement.querySelector('div')
   }
-  return currElement
+  return currElement.innerHTML
 }
