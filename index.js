@@ -24,7 +24,7 @@ function deepestChild(){
     i++
   }
   while (tempElement.innerHTML !== null)
-  for (x = 0; x < i - 1; x++){
+  for (x = 0; x < i - 2; x++){
     currElement = currElement.querySelector('div')
   }
   return currElement
